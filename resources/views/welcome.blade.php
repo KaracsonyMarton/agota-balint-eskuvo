@@ -248,32 +248,35 @@
                 <div class="col col-xs-12">
                     <div class="section-title-white">
                         <div class="vertical-line"><span><i class="fi flaticon-two"></i></span></div>
-                        <h2>Join our party</h2>
+                        <h2>Répondez s'il vous plaît</h2>
                     </div>
                 </div>
             </div> <!-- end section-title -->
 
             <div class="row content">
                 <div class="col col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                    <form id="rsvp-form" class="form validate-rsvp-form row" method="post">
+                    <form class="form validate-rsvp-form row" action="{{route('sendEmail')}}"
+                          method="post">
+                        @csrf
                         <div class="col col-sm-6">
                             <input type="text" name="name" class="form-control" required placeholder="Név*">
                         </div>
                         <div class="col col-sm-6">
-                            <input type="text" name="name" class="form-control" placeholder="+1 fő">
+                            <input type="text" name="additional_person_name" class="form-control"
+                                   placeholder="+1 fő neve">
                         </div>
-                        <div class="col col-sm-6">
+                        <div class="col col-sm-12">
                             <select class="form-control" name="attending">
                                 <option selected>Jövök</option>
                                 <option>Nem jövök</option>
                             </select>
                         </div>
                         <div class="col col-sm-12">
-                            <textarea class="form-control" name="notes" placeholder="Étel allergiát kérlek itt tüntesd fel"></textarea>
+                            <textarea class="form-control" name="notes"
+                                      placeholder="Étel allergiát kérlek itt tüntesd fel"></textarea>
                         </div>
                         <div class="col col-sm-12 submit-btn">
                             <button type="submit" class="submit">Küldés</button>
-                            <span id="loader"><i class="fa fa-refresh fa-spin fa-3x fa-fw"></i></span>
                         </div>
                     </form>
                 </div>
