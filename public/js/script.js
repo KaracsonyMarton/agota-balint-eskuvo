@@ -470,12 +470,12 @@
         = COUNTDOWN CLOCK
     -------------------------------------------*/
     if ($("#clock").length) {
-        $('#clock').countdown('2019/12/25', function(event) {
+        $('#clock').countdown('2023/06/10', function(event) {
             var $this = $(this).html(event.strftime(''
-            + '<div class="box"><div>%D</div> <span>Days</span> </div>'
-            + '<div class="box"><div>%H</div> <span>Hours</span> </div>'
-            + '<div class="box"><div>%M</div> <span>Mins</span> </div>'
-            + '<div class="box"><div>%S</div> <span>Secs</span> </div>'));
+            + '<div class="box"><div>%D</div> <span>Nap</span> </div>'
+            + '<div class="box"><div>%H</div> <span>Óra</span> </div>'
+            + '<div class="box"><div>%M</div> <span>Perc</span> </div>'
+            + '<div class="box"><div>%S</div> <span>Másodperc</span> </div>'));
         });
     }
 

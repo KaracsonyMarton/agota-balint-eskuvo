@@ -16,4 +16,7 @@
             @endcomponent
         @endslot
     @endisset
+
+    @slot('footer')
+    @endslot
 @endcomponent

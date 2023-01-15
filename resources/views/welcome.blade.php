@@ -41,7 +41,14 @@
     <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" integrity="sha512-vKMx8UnXk60zUwyUnUPM3HbQo8QfmNx7+ltw8Pm5zLusl1XIfwcxo8DbWCqMGKaWeNxWA8yrx5v3SaVpMvR3CA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+    <style>
+        #toast-container{
+            top: 10px!important;
+            right: 10px!important;
+        }
+    </style>
 </head>
 
 <body id="home">
@@ -199,7 +206,7 @@
                 <div class="col col-lg-10 col-lg-offset-1">
                     <div class="event">
                         <div class="img-holder">
-                            <img src="images/events/img-1.jpg" alt class="img img-responsive">
+                            <img src="{{asset('images/events/img-1.jpg')}}" alt class="img img-responsive">
                         </div>
                         <div class="details">
                             <h3>The reception</h3>
@@ -218,7 +225,7 @@
                     </div>
                     <div class="event">
                         <div class="img-holder">
-                            <img src="images/events/img-2.jpg" alt class="img img-responsive">
+                            <img src="{{asset('images/events/img-2.jpg')}}" alt class="img img-responsive">
                         </div>
                         <div class="details">
                             <h3>Wedding party</h3>
@@ -301,5 +308,82 @@
 
 <!-- Custom script for this template -->
 <script src="{{ asset('js/script.js')}}"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js" integrity="sha512-VEd+nq25CkR676O+pLBnDW09R7VQX9Mdiij052gVCp5yVH3jGtH70Ho/UUv4mJDsEdTvqRCFZg0NKGiojGnUCw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+@if (session()->has('success'))
+    <script>
+        toastr.options = {
+            "closeButton": true,
+            "debug": false,
+            "newestOnTop": true,
+            "progressBar": true,
+            "positionClass": "toastr-top-right",
+            "preventDuplicates": false,
+            "onclick": null,
+            "showDuration": "500",
+            "hideDuration": "1000",
+            "timeOut": "5000",
+            "extendedTimeOut": "1000",
+            "showEasing": "swing",
+            "hideEasing": "linear",
+            "showMethod": "fadeIn",
+            "hideMethod": "fadeOut"
+        };
+        toastr.success("{{ session('success') }}", "Sikeres művelet");
+    </script>
+@endif
+
+@if(session('error'))
+
+    <script>
+        toastr.options = {
+            "closeButton": true,
+            "debug": false,
+            "newestOnTop": true,
+            "progressBar": true,
+            "positionClass": "toastr-top-right",
+            "preventDuplicates": false,
+            "onclick": null,
+            "showDuration": "500",
+            "hideDuration": "1000",
+            "timeOut": "5000",
+            "extendedTimeOut": "1000",
+            "showEasing": "swing",
+            "hideEasing": "linear",
+            "showMethod": "fadeIn",
+            "hideMethod": "fadeOut"
+        };
+
+        toastr.error("{{ session('error') }}", "Hiba!");
+    </script>
+@endif
+
+@if(count($errors) > 0)
+    @foreach($errors->all() as $error)
+        <script>
+            toastr.options = {
+                "closeButton": true,
+                "debug": false,
+                "newestOnTop": true,
+                "progressBar": true,
+                "positionClass": "toastr-top-right",
+                "preventDuplicates": false,
+                "onclick": null,
+                "showDuration": "500",
+                "hideDuration": "1000",
+                "timeOut": "5000",
+                "extendedTimeOut": "1000",
+                "showEasing": "swing",
+                "hideEasing": "linear",
+                "showMethod": "fadeIn",
+                "hideMethod": "fadeOut"
+            };
+
+            toastr.error("{{ $error }}", "Hiba!");
+        </script>
+    @endforeach
+@endif
+
 </body>
 </html>
