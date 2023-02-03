@@ -15,7 +15,7 @@
     <link href="{{asset('images/favicon/apple-touch-icon-72x72.png')}}" rel="apple-touch-icon" sizes="72x72">
     <link href="{{asset('images/favicon/apple-touch-icon-114x114.png')}}" rel="apple-touch-icon" sizes="114x114">
     <link href="{{asset('images/favicon/apple-touch-icon-144x144.png')}}" rel="apple-touch-icon" sizes="144x144">
-
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
     <!-- Icon fonts -->
     <link href="{{asset('css/font-awesome.min.css')}}" rel="stylesheet">
     <link href="{{asset('css/flaticon.css')}}" rel="stylesheet">
@@ -41,12 +41,14 @@
     <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" integrity="sha512-vKMx8UnXk60zUwyUnUPM3HbQo8QfmNx7+ltw8Pm5zLusl1XIfwcxo8DbWCqMGKaWeNxWA8yrx5v3SaVpMvR3CA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css"
+          integrity="sha512-vKMx8UnXk60zUwyUnUPM3HbQo8QfmNx7+ltw8Pm5zLusl1XIfwcxo8DbWCqMGKaWeNxWA8yrx5v3SaVpMvR3CA=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
 
     <style>
-        #toast-container{
-            top: 10px!important;
-            right: 10px!important;
+        #toast-container {
+            top: 10px !important;
+            right: 10px !important;
         }
     </style>
 </head>
@@ -76,7 +78,7 @@
                         <span class="icon-bar"></span>
                     </button>
                     <div class="couple-logo">
-                        <h1><a href="#home">Á <i class="fi flaticon-shape-1"></i> B</a></h1>
+                        <h1><a href="#home">Ágota és Bálint</a></h1>
                     </div>
                 </div>
                 <div id="navbar" class="navbar-collapse collapse navbar-right navigation-holder">
@@ -105,27 +107,36 @@
                 <h2 class="wow slideInUp" data-wow-duration="1s">Ágota &amp; Bálint</h2>
                 <div class="married-text wow fadeIn" data-wow-delay="1s">
                     <h4 class="">
-                        <span class=" wow fadeInUp" data-wow-delay="1.05s">W</span>
-                        <span class=" wow fadeInUp" data-wow-delay="1.10s">e</span>
-                        <span class=" wow fadeInUp" data-wow-delay="1.15s">'</span>
-                        <span class=" wow fadeInUp" data-wow-delay="1.20s">r</span>
-                        <span class=" wow fadeInUp" data-wow-delay="1.25s">e</span>
+                        <span class=" wow fadeInUp" data-wow-delay="1.05s">ü</span>
+                        <span class=" wow fadeInUp" data-wow-delay="1.10s">N</span>
+                        <span class=" wow fadeInUp" data-wow-delay="1.15s">N</span>
+                        <span class=" wow fadeInUp" data-wow-delay="1.20s">E</span>
+                        <span class=" wow fadeInUp" data-wow-delay="1.25s">P</span>
+                        <span class=" wow fadeInUp" data-wow-delay="1.30s">E</span>
+                        <span class=" wow fadeInUp" data-wow-delay="1.35s">L</span>
+                        <span class=" wow fadeInUp" data-wow-delay="1.40s">J</span>
                         <span>&nbsp;</span>
-                        <span class=" wow fadeInUp" data-wow-delay="1.30s">g</span>
-                        <span class=" wow fadeInUp" data-wow-delay="1.35s">e</span>
-                        <span class=" wow fadeInUp" data-wow-delay="1.40s">t</span>
-                        <span class=" wow fadeInUp" data-wow-delay="1.45s">t</span>
-                        <span class=" wow fadeInUp" data-wow-delay="1.50s">i</span>
-                        <span class=" wow fadeInUp" data-wow-delay="1.55s">n</span>
-                        <span class=" wow fadeInUp" data-wow-delay="1.60s">g</span>
+
+                        <span class=" wow fadeInUp" data-wow-delay="1.45s">V</span>
+                        <span class=" wow fadeInUp" data-wow-delay="1.50s">E</span>
+                        <span class=" wow fadeInUp" data-wow-delay="1.55s">L</span>
+                        <span class=" wow fadeInUp" data-wow-delay="1.60s">Ü</span>
+                        <span class=" wow fadeInUp" data-wow-delay="1.65s">N</span>
+                        <span class=" wow fadeInUp" data-wow-delay="1.70s">K</span>
                         <span>&nbsp;</span>
-                        <span class=" wow fadeInUp" data-wow-delay="1.65s">m</span>
-                        <span class=" wow fadeInUp" data-wow-delay="1.70s">a</span>
-                        <span class=" wow fadeInUp" data-wow-delay="1.75s">r</span>
-                        <span class=" wow fadeInUp" data-wow-delay="1.80s">r</span>
-                        <span class=" wow fadeInUp" data-wow-delay="1.85s">i</span>
-                        <span class=" wow fadeInUp" data-wow-delay="1.90s">e</span>
-                        <span class=" wow fadeInUp" data-wow-delay="1.95s">d</span>
+                        <span class=" wow fadeInUp" data-wow-delay="1.75s">A</span>
+                        <span class=" wow fadeInUp" data-wow-delay="1.80s">z</span>
+                        <span>&nbsp;</span>
+                        <span class=" wow fadeInUp" data-wow-delay="1.85s">E</span>
+                        <span class=" wow fadeInUp" data-wow-delay="1.90s">S</span>
+                        <span class=" wow fadeInUp" data-wow-delay="1.95s">K</span>
+                        <span class=" wow fadeInUp" data-wow-delay="2.00s">Ü</span>
+                        <span class=" wow fadeInUp" data-wow-delay="2.05s">V</span>
+                        <span class=" wow fadeInUp" data-wow-delay="2.10s">Ő</span>
+                        <span class=" wow fadeInUp" data-wow-delay="2.15s">N</span>
+                        <span class=" wow fadeInUp" data-wow-delay="2.20s">K</span>
+                        <span class=" wow fadeInUp" data-wow-delay="2.25s">Ö</span>
+                        <span class=" wow fadeInUp" data-wow-delay="2.30s">N</span>
 
                     </h4>
                 </div>
@@ -133,7 +144,7 @@
             </div>
 
             <div class="save-the-date">
-                <h4>Mentsd el a dátumot</h4>
+                <h4>Dátum</h4>
                 <span class="date">2023.06.10</span>
             </div>
         </div>
@@ -148,6 +159,8 @@
                     <div class="section-title-white">
                         <div class="vertical-line"><span><i class="fi flaticon-two"></i></span></div>
                         <h2>Megközelítés</h2>
+                        <h4 class="white">Gyarmatpusztai Vadászház (Gyermely, Gyarmatpuszta 9, 2821)</h4>
+                        <a class=" btn btn-success" href="https://goo.gl/maps/VVLjiRJS4X4NwYmH6" target="_blank">Útvonalterv</a>
                     </div>
                 </div>
             </div> <!-- end section-title -->
@@ -155,17 +168,14 @@
             <div class="row content">
                 <div class="col col-md-6">
                     <h3>Közlekedés</h3>
-                    <p> industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
-                        type and scrambled it to make a type specimen book. It has survived not only five centuries, but
-                        also the leap into electronic typesetting, remaining essentially unchanged. It was popularised
-                        in the 1960s</p>
+                    <p>Budapesttől 45 km, autóval 45 perc </p>
                 </div>
                 <div class="col col-md-6">
                     <h3>Szállás</h3>
-                    <p> industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
-                        type and scrambled it to make a type specimen book. It has survived not only five centuries, but
-                        also the leap into electronic typesetting, remaining essentially unchanged. It was popularised
-                        in the 1960s</p>
+                    <p> A Vadászházban <b>(13.000,-Ft/fő/éj)</b> és ha többen kértek szállást, a Palota Panzióban <b>(8000,
+                            - Ft / fő / éj reggelivel)</b> Gyermelyen.<br> A Vadászháztól a Palota Panzióig gondoskodunk
+                        a
+                        fuvarról.</p>
                 </div>
             </div> <!-- end row -->
         </div> <!-- end container -->
@@ -176,7 +186,7 @@
         <div class="container">
             <div class="row">
                 <div class="col col-md-4">
-                    <h2><span>We are waiting for.....</span> The adventure</h2>
+                    <h2> Visszaszámlálás</h2>
                 </div>
                 <div class="col col-md-7 col-md-offset-1">
                     <div class="count-down-clock">
@@ -209,18 +219,13 @@
                             <img src="{{asset('images/events/img-1.jpg')}}" alt class="img img-responsive">
                         </div>
                         <div class="details">
-                            <h3>The reception</h3>
+                            <h3>Érkezés</h3>
                             <ul>
-                                <li><i class="fa fa-map-marker"></i> 32 big bro road, Chanpai, London.</li>
-                                <li><i class="fa fa-clock-o"></i> Nov 25 2017, 9AM - 5PM</li>
+                                <li><i class="fa fa-map-marker"></i>Gyarmatpusztai Vadászház (Gyermely, Gyarmatpuszta 9,
+                                    2821)
+                                </li>
+                                <li><i class="fa fa-clock-o"></i> 16:30</li>
                             </ul>
-                            <p>when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book. It has survived not only five centuries, but also the leap into electronic
-                                typesetting, remaining essentially unchanged. </p>
-                            <a class="see-location-btn popup-gmaps"
-                               href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25211.21212385712!2d144.95275648773628!3d-37.82748510398018!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0x5045675218ce7e0!2zTWVsYm91cm5lIFZJQyAzMDA0LCDgpoXgprjgp43gpp_gp43gprDgp4fgprLgpr_gpq_gprzgpr4!5e0!3m2!1sbn!2sbd!4v1503742051881">
-                                See location <i class="fa fa-angle-right"></i>
-                            </a>
                         </div>
                     </div>
                     <div class="event">
@@ -228,21 +233,87 @@
                             <img src="{{asset('images/events/img-2.jpg')}}" alt class="img img-responsive">
                         </div>
                         <div class="details">
-                            <h3>Wedding party</h3>
+                            <h3>Szertartás</h3>
                             <ul>
-                                <li><i class="fa fa-map-marker"></i> 32 big bro road, Chanpai, London.</li>
-                                <li><i class="fa fa-clock-o"></i> Nov 25 2017, 9AM - 5PM</li>
+                                <li><i class="fa fa-map-marker"></i>Gyarmatpusztai Vadászház (Gyermely, Gyarmatpuszta 9,
+                                    2821)
+                                </li>
+                                <li><i class="fa fa-clock-o"></i> 17:30</li>
                             </ul>
-                            <p>when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book. It has survived not only five centuries, but also the leap into electronic
-                                typesetting, remaining essentially unchanged. </p>
-                            <a class="see-location-btn popup-gmaps"
-                               href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3152.0160484383277!2d144.99053291585201!3d-37.81309307975254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642ef89a7e023%3A0xb1353055e38c1ab8!2sNew+York+Tomato+Cafe!5e0!3m2!1sbn!2sbd!4v1503743893919">
-                                See location <i class="fa fa-angle-right"></i>
-                            </a>
+                        </div>
+                    </div>
+                    <div class="event">
+                        <div class="img-holder">
+                            <img src="{{asset('images/events/img-2.jpg')}}" alt class="img img-responsive">
+                        </div>
+                        <div class="details">
+                            <h3>Gratuláció</h3>
+                            <ul>
+                                <li><i class="fa fa-map-marker"></i>Gyarmatpusztai Vadászház (Gyermely, Gyarmatpuszta 9,
+                                    2821)
+                                </li>
+                                <li><i class="fa fa-clock-o"></i> 18:00</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="event">
+                        <div class="img-holder">
+                            <img src="{{asset('images/events/img-2.jpg')}}" alt class="img img-responsive">
+                        </div>
+                        <div class="details">
+                            <h3>Fotózás</h3>
+                            <ul>
+                                <li><i class="fa fa-map-marker"></i>Gyarmatpusztai Vadászház (Gyermely, Gyarmatpuszta 9,
+                                    2821)
+                                </li>
+                                <li><i class="fa fa-clock-o"></i> 18:30-19:00</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="event">
+                        <div class="img-holder">
+                            <img src="{{asset('images/events/img-2.jpg')}}" alt class="img img-responsive">
+                        </div>
+                        <div class="details">
+                            <h3>Vacsora</h3>
+                            <ul>
+                                <li><i class="fa fa-map-marker"></i>Gyarmatpusztai Vadászház (Gyermely, Gyarmatpuszta 9,
+                                    2821)
+                                </li>
+                                <li><i class="fa fa-clock-o"></i> 20:00</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="event">
+                        <div class="img-holder">
+                            <img src="{{asset('images/events/img-2.jpg')}}" alt class="img img-responsive">
+                        </div>
+                        <div class="details">
+                            <h3>Buli</h3>
+                            <ul>
+                                <li><i class="fa fa-map-marker"></i>Gyarmatpusztai Vadászház (Gyermely, Gyarmatpuszta 9,
+                                    2821)
+                                </li>
+                                <li><i class="fa fa-clock-o"></i> Hajnalig</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="event">
+                        <div class="img-holder">
+                            <img src="{{asset('images/events/img-2.jpg')}}" alt class="img img-responsive">
+                        </div>
+                        <div class="details">
+                            <h3>Morzsaparti</h3>
+                            <ul>
+                                <li><i class="fa fa-map-marker"></i>Gyarmatpusztai Vadászház (Gyermely, Gyarmatpuszta 9,
+                                    2821)
+                                </li>
+                                <li><i class="fa fa-clock-o"></i> 17:30</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
+
             </div> <!-- end row -->
         </div> <!-- end container -->
     </section>
@@ -270,17 +341,25 @@
                         </div>
                         <div class="col col-sm-6">
                             <input type="text" name="additional_person_name" class="form-control"
-                                   placeholder="+1 fő neve">
+                                   placeholder="Kivel jössz? Kérlek írd le a nevét.">
                         </div>
                         <div class="col col-sm-12">
                             <select class="form-control" name="attending">
-                                <option selected>Jövök</option>
-                                <option>Nem jövök</option>
+                                <option selected>Ott leszek</option>
+                                <option>Nem leszek ott</option>
+                            </select>
+                        </div>
+                        <div class="col col-sm-12">
+                            <label class="white" for="accommodation">Kérsz, kértek szállást? <small>(Vadászházban: 13.000, - Ft / fő / éj,
+                                Palota Panzióban: 8000, - Ft / fő / éj reggelivel) Gyermelyen)</small> </label>
+                            <select class="form-control" id="accommodation" name="accommodation">
+                                <option selected>Igen</option>
+                                <option>Nem</option>
                             </select>
                         </div>
                         <div class="col col-sm-12">
                             <textarea class="form-control" name="notes"
-                                      placeholder="Étel allergiát kérlek itt tüntesd fel"></textarea>
+                                      placeholder="Ha van ételallergiád, egyéni étkezési kérésed, ide írd le."></textarea>
                         </div>
                         <div class="col col-sm-12 submit-btn">
                             <button type="submit" class="submit">Küldés</button>
@@ -308,7 +387,9 @@
 
 <!-- Custom script for this template -->
 <script src="{{ asset('js/script.js')}}"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js" integrity="sha512-VEd+nq25CkR676O+pLBnDW09R7VQX9Mdiij052gVCp5yVH3jGtH70Ho/UUv4mJDsEdTvqRCFZg0NKGiojGnUCw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"
+        integrity="sha512-VEd+nq25CkR676O+pLBnDW09R7VQX9Mdiij052gVCp5yVH3jGtH70Ho/UUv4mJDsEdTvqRCFZg0NKGiojGnUCw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
 
 @if (session()->has('success'))

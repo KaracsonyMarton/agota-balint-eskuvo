@@ -3,9 +3,11 @@
 
 ## Név: {{ $request->name }}
 
-## +1 fő neve: {{ $request->additional_person_name }}
+## Kivel jössz? Kérlek írd le a nevét: {{ $request->additional_person_name }}
 
 ## RSVP: {{ $request->attending }}
+
+## Kérsz, kértek szállást?: {{ $request->accommodation }}
 
 Üzenet: {{ $request->message }}
 @endcomponent
