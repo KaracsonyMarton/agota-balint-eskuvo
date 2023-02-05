@@ -2845,7 +2845,7 @@ a:focus {
 }
 
 .events-section .event + .event {
-    margin-top: 45px;
+    margin-top: 15px;
 }
 
 @media (max-width: 991px) {
@@ -4096,3 +4096,6 @@ a:focus {
 }
 
 /*# sourceMappingURL=style.css.map */
+.rsvp-section {
+    background-position-y: center!important;
+}
