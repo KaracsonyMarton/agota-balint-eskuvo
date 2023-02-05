@@ -17,6 +17,7 @@ class MailController extends Controller
     public function sendEmail(MailRequest $request): RedirectResponse
     {
         Mail::to(env('MAIL_TO_ADDRESS'))->send(new ContactMail($request));
+        Mail::to(env('MAIL_TO_ADDRESS2'))->send(new ContactMail($request));
         return redirect()->back()->with('success', 'Köszönjük a visszajelzésed!');
     }
 }

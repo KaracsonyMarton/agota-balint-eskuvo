@@ -179,7 +179,7 @@
     </section>
     <!-- end getting-there-section -->
     <!-- start count-down-section -->
-    <section class="count-down-section section-padding parallax" data-bg-image="images/countdown-bg.jpg" data-speed="7">
+    <section class="count-down-section section-padding parallax" data-bg-image="images/countdown-bg.jpg" data-speed="7" id="countdown">
         <div class="container">
             <div class="row">
                 <div class="col col-md-4">
@@ -210,7 +210,10 @@
             </div> <!-- end section-title -->
 
             <div class="row">
-                <div class="col col-lg-10 col-lg-offset-1">
+                <div class="col col-lg-6">
+                    <img src="{{asset('images/image_50349569.JPG')}}" alt="" class="w-100" >
+                </div>
+                <div class="col col-lg-6">
                     <div class="event">
                         <div class="details">
                             <h3>Érkezés</h3>
@@ -331,12 +334,8 @@
         </div> <!-- end container -->
     </section>
     <!-- end rsvp-section -->
-
-
 </div>
 <!-- end of page-wrapper -->
-
-
 <!-- All JavaScript files
 ================================================== -->
 <script src="{{ asset('js/jquery.min.js')}}"></script>
@@ -426,6 +425,19 @@
         </script>
     @endforeach
 @endif
+
+<script>
+
+    // select in native js #countdown
+    const select = document.querySelector('#countdown');
+    // detect mobile
+    const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+    // set the date we're counting down to
+    if (isMobile) {
+        // Set background image for mobile
+        document.querySelector('#countdown-section').style.backgroundImage = "url('images/countdown2.jpg')";
+    }
+</script>
 
 </body>
 </html>
