@@ -319,7 +319,7 @@
                             </select>
                         </div>
                         <div class="col col-sm-12">
-                            <textarea class="form-control" name="notes"
+                            <textarea class="form-control" name="message"
                                       placeholder="Ha van ételallergiád, egyéni étkezési kérésed, ide írd le."></textarea>
                         </div>
                         <div class="col col-sm-12 submit-btn">
