@@ -1806,8 +1806,7 @@ a:focus {
 
 @media (max-width: 991px) {
     .hero .wedding-announcement .married-text h4 {
-        font-size: 17px;
-        font-size: 0.94444rem;
+        font-size: 0.56rem;
         padding: 8px 14px;
     }
 }
