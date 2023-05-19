@@ -470,7 +470,7 @@
         = COUNTDOWN CLOCK
     -------------------------------------------*/
     if ($("#clock").length) {
-        $('#clock').countdown('2023/06/10', function(event) {
+        $('#clock').countdown('2023/06/10 16:30', function(event) {
             var $this = $(this).html(event.strftime(''
             + '<div class="box"><div>%D</div> <span>Nap</span> </div>'
             + '<div class="box"><div>%H</div> <span>Óra</span> </div>'
